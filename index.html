@@ -39,7 +39,10 @@
 
   <div class="hero_area">
     <div class="bg-box">
-      <img src="images/hero-bg.jpg" alt="">
+      <video autoplay muted loop playsinline>
+        <source src="video/promo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </div>
     <!-- header section strats -->
     <header class="header_section">
@@ -1189,7 +1192,8 @@
       <div class="row">
         <div class="col-md-6">
           <div class="form_container">
-            <form action="">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="90cbde93-8d5c-46a1-b6f9-0f1ca7e58459">
               <div>
                 <input type="text" class="form-control" placeholder="Your Name" />
               </div>
